@@ -15,5 +15,6 @@ body {
    position: relative;
 }
 .score{
+  position: absolute;
   
 }
