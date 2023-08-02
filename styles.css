@@ -16,5 +16,6 @@ body {
 }
 .score{
   position: absolute;
+  font-size: 3vmin;
   
 }
