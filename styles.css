@@ -26,5 +26,5 @@ body {
   font-size: 3vmin;
   right: 1vmin;
   left: 1vmin;
-  
+  transform: translate();
 }
