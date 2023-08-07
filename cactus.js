@@ -10,4 +10,6 @@ const CACTUS_INTERVAL_MAX = 2000
 const woldElem = document.querySelector("[data-world]")
 
 let nextCactusTime
-
+export function setupCactus() {
+  
+}
