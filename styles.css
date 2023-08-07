@@ -41,4 +41,8 @@ body {
   left: calc(var(--left) * 1%) 
 }
 
-
+.dino{
+  --bottom: 0;
+  position: absolute;
+  
+}
