@@ -44,5 +44,7 @@ body {
 .dino{
   --bottom: 0;
   position: absolute;
+  left: 1%;
+  height: 30%;
   
 }
