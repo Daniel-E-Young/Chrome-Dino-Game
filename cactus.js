@@ -5,4 +5,6 @@ import {
 } from "./updateCustomProperty.js"
 
 const SPEED = 0.05
-const
+const CACTUS_INTERVAL_MIN = 500
+const CACTUS_INTERVAL_MAX = 2000
+
