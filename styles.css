@@ -24,6 +24,7 @@ body {
 .start-screen {
   position: absolute;
   font-size: 3vmin;
+  right: 1vmin;
   
   
 }
