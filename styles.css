@@ -27,5 +27,8 @@ body {
   right: 1vmin;
   left: 1vmin;
   transform: translate(-50%, -50%);
+}
+
+.hide{
   
 }
