@@ -9,4 +9,5 @@ const CACTUS_INTERVAL_MIN = 500
 const CACTUS_INTERVAL_MAX = 2000
 const woldElem = document.querySelector("[data-world]")
 
+let nextCactusTime
 
