@@ -24,3 +24,9 @@ export function updateCactus(delta, speedScale) {
       cactus.remove()
     }
   })
+
+  if (nextCactusTime <= 0) {
+    createCactus()
+    nextCactusTime=
+    
+  }
