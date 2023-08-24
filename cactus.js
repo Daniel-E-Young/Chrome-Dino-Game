@@ -29,5 +29,7 @@ export function updateCactus(delta, speedScale) {
     createCactus()
     nextCactusTime=
     randomNumberBetween(CACTUS_INTERVAL_MIN, CACTUS_INTERVAL_MAX) / speedScale
+    }
+    nextCactusTime- = delta
   }
   
