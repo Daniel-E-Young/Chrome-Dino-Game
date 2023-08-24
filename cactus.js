@@ -17,4 +17,6 @@ export function setupCactus() {
   })
 }
 
-export function
+export function updateCactus(delta, speedScale){
+  
+}
