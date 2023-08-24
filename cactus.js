@@ -19,7 +19,7 @@ export function setupCactus() {
 
 export function updateCactus(delta, speedScale){
   document.querySelectorAll("[data-cactus]").forEach(cactus => {
-    incrementCustomProperty
+    incrementCustomProperty(cactus, "--left", delta )
   }
     
     )
