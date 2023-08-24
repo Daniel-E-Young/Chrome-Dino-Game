@@ -20,7 +20,9 @@ export function setupCactus() {
 export function updateCactus(delta, speedScale){
   document.querySelectorAll("[data-cactus]").forEach(cactus => {
     incrementCustomProperty(cactus, "--left", delta * speedScale *SPEED * -1)
-    if
+    if (getCustomProperty(cactus,"--left") <= -100) {
+      cactus.remove()
+    }
   }
     
     )
