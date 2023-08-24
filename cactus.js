@@ -18,5 +18,5 @@ export function setupCactus() {
 }
 
 export function updateCactus(delta, speedScale){
-  
+  document.querySelectorAll("[sata-cactus")
 }
