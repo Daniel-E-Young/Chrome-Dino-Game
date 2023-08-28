@@ -19,5 +19,5 @@ export function setupDino() {
     dinoFrame = 0
     currentFrameTime = 0
     yVelocity = 0
-    
+    setCustomProperty(dinoElem, "--bottom",0)
 }
