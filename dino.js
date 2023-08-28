@@ -18,5 +18,6 @@ export function setupDino() {
     isJumping = false
     dinoFrame = 0
     currentFrameTime = 0
+    yVelocity = 0
     
 }
