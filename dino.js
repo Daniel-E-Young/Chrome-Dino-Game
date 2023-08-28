@@ -4,4 +4,5 @@ import{
     getCustomProperty,
 } from ".updateCustomProperty.js"
 
-const dinoElem = document.querySelector
+const dinoElem = document.querySelector("[data-dino]")
+const J
