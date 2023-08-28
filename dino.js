@@ -12,3 +12,5 @@ const FRAME_TIME = 100
 
 let isJumping
 let dinoFrame
+let currentFrameTime
+let yVelocity
