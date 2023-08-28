@@ -15,5 +15,5 @@ let dinoFrame
 let currentFrameTime
 let yVelocity
 export function setupDino() {
-    
+    isJumping 
 }
