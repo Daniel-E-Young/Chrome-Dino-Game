@@ -10,3 +10,5 @@ const GRAVITY = 0.0015
 const DINO_FRAME_COUNT = 2
 const FRAME_TIME = 100
 
+let isJumping
+let DINO_FRAME_COUNT
