@@ -23,5 +23,6 @@ export function setupDino() {
 }
 
 export function updateDIno(delta, speedScale) {
+    handleRun(delta,speedScale)
     
 }
