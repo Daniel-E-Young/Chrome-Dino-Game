@@ -35,7 +35,7 @@ export function setDinoLose() {
 }
 
 function handleRun(delta, speedScale) {
-    if(is isJumping) {
+    if(isJumping) {
         dinoElem.src = "imgs/dino-stationary.png"
         return
     }
