@@ -29,3 +29,5 @@ export function updateDino(delta, speedScale) {
 export function getDinoRect() {
     return dinoElem.getBoundingClientRect()
 }
+
+export 
