@@ -35,5 +35,7 @@ export function setDinoLose() {
 }
 
 function handleRun(delta, speedScale) {
-    
+
 }
+
+if (currentFrameTime >= FRAME_TIME
