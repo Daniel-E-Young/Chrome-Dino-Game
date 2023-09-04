@@ -47,5 +47,6 @@ function handleRun(delta, speedScale) {
     currentFrameTime += delta * speedScale
 }
 function handleJump(delta) {
-    if (!isJumping)
+    if (!isJumping) return
+    incrementCustomProperty(dinoElem, "--bottom", yVelocity)
 }
