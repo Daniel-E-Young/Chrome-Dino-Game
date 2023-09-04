@@ -35,7 +35,9 @@ export function setDinoLose() {
 }
 
 function handleRun(delta, speedScale) {
-
+    if(is isJumping) {
+        dinoElem.src = "imgs"
+    }
 }
 
 if (currentFrameTime >= FRAME_TIME
