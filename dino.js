@@ -39,6 +39,6 @@ function handleRun(delta, speedScale) {
         dinoElem.src = "imgs/dino-stationary.png"
         return
     }
-}
-
-if (currentFrameTime >= FRAME_TIME
+    if (currentFrameTime >= FRAME_TIME) {
+        dinoFrame = (dinoFrame + 1) % DINO_FRAME_COUNT
+    }
