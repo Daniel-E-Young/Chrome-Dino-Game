@@ -52,6 +52,7 @@ function handleJump(delta) {
 
     if (getCustomProperty(dinoElem, "--bottom") <= 0) {
         setCustomProperty(dinoElem, "--bottom" 0)
-        
+        isJumping = false
     }
+    yVelocity -= GRAVITY * delta
 }
