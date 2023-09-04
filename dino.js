@@ -26,4 +26,6 @@ export function updateDino(delta, speedScale) {
     handleRun(delta,speedScale)
     handleJump(delta)
 }
-export function getDino()
+export function getDinoRect() {
+    
+}
