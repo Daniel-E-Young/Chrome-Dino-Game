@@ -21,3 +21,7 @@ export function setupDino() {
     yVelocity = 0
     setCustomProperty(dinoElem, "--bottom",0)
 }
+
+export function updateDIno(delta, speedScale) {
+    
+}
