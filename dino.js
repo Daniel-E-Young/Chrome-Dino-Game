@@ -30,4 +30,6 @@ export function getDinoRect() {
     return dinoElem.getBoundingClientRect()
 }
 
-export function 
+export function setDinoLose() {
+    dinoElen.src = ""
+}
