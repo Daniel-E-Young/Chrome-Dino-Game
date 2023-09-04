@@ -34,4 +34,6 @@ export function setDinoLose() {
     dinoElen.src = "imgs/dino-loe.png"
 }
 
-function handleRun(delta)
+function handleRun(delta, speedScale) {
+    
+}
