@@ -44,4 +44,5 @@ function handleRun(delta, speedScale) {
         dinoElem.src = 'imgs/dino-run-${dino-frame}.png'
         currentFrameTime -= FRAME_TIME
     }
-    
+    currentFrameTime += delta * speedScale
+}
