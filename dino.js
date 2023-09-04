@@ -30,4 +30,4 @@ export function getDinoRect() {
     return dinoElem.getBoundingClientRect()
 }
 
-export 
+export function 
