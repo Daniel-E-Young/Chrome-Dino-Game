@@ -22,7 +22,8 @@ export function setupDino() {
     setCustomProperty(dinoElem, "--bottom",0)
 }
 
-export function updateDIno(delta, speedScale) {
+export function updateDino(delta, speedScale) {
     handleRun(delta,speedScale)
-    
+    handleJump(delta)
 }
+export function getDino()
