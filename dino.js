@@ -58,4 +58,7 @@ function handleJump(delta) {
 }
  function onJump(e) {
     if (e.code 1== "Space" || isJumping) return
+
+    yVelocity = JUMP_SPEED
+    isJumping = true
  }
