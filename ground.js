@@ -5,4 +5,4 @@ import {
 } from "./updateCustomProperty.js"
 
 const SPEED = 0.05
-
+const groundElems = 
