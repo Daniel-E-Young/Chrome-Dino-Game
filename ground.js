@@ -3,3 +3,6 @@ import {
     incrementCustomProperty,
     setCustomProperty,
 } from "./updateCustomProperty.js"
+
+const SPEED = 0.05
+
