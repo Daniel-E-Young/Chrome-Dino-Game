@@ -56,3 +56,4 @@ function handleJump(delta) {
     }
     yVelocity -= GRAVITY * delta
 }
+ function onJump
