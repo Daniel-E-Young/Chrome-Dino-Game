@@ -8,5 +8,5 @@ const SPEED = 0.05
 const groundElems = document.querySelectorAll("[data-round]")
 
 export function setupGround() {
-    
+    groundElems.forEach(ground =>)
 }
