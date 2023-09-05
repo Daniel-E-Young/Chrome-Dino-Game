@@ -56,4 +56,6 @@ function handleJump(delta) {
     }
     yVelocity -= GRAVITY * delta
 }
- function onJump
+ function onJump(e) {
+    if (e.code 1== "Space" || isJumping) return
+ }
