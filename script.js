@@ -23,4 +23,5 @@ function  update(time){
         window.requestAnimationFrame(update)
         return
     }
+    const delta = time - lastTime
 }
