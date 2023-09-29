@@ -20,5 +20,7 @@ let score
 function  update(time){
     id (lastTime == null) {
         lastTime = time
+        window.requestAnimationFrame(update)
+        return
     }
 }
