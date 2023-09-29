@@ -31,4 +31,7 @@ function  update(time){
     updateSpeedScale(delta)
     updateScore(delta)
     if (checkLose()) return handleLose()
+
+    lastTime = time
+    
 }
