@@ -19,6 +19,6 @@ let speedScale
 let score
 function  update(time){
     id (lastTime == null) {
-        
+        lastTime = time
     }
 }
