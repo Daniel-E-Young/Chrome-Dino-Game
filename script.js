@@ -24,4 +24,11 @@ function  update(time){
         return
     }
     const delta = time - lastTime
+
+    updateGround(delta, speedScale)
+    updateDino(delta, speedScale)
+    updateCactus(delta, speedScale)
+    updateSpeedScale(delta)
+    updateScore(delta)
+    if (checkLose()) return handleLose()
 }
