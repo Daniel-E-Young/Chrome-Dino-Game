@@ -15,4 +15,5 @@ window.addEventListener("resize", setPixelToWorldScale)
 document.addEventListener("keydown", handleStart, { once: true })
 
 let lastTime
-let SPEED_SCALE_INCREASE
+let speedSCale 
+
