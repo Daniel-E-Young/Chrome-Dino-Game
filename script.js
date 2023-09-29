@@ -33,5 +33,6 @@ function  update(time){
     if (checkLose()) return handleLose()
 
     lastTime = time
-    
+    window.requestAnimationFrame(update)
 }
+
