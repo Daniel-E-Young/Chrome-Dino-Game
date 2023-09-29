@@ -3,4 +3,4 @@ import { updateDino, setupDino, getDinoRect, setDinoLose } from "./dino.js"
 import { updateCactus, setupCactus, getCactusRects } from "./cactus.js"
 
 const WORLD_WIDTH = 100
-const WORLD_HEIGHT = 
+const WORLD_HEIGHT = 30
