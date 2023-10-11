@@ -36,5 +36,5 @@ function  update(time){
     window.requestAnimationFrame(update)
 }
 function checkLose() {
-    const dinoRect
+    const dinoRect = 
 }
