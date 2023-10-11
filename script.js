@@ -40,4 +40,6 @@ function checkLose() {
     return getCactusRects().some(rect=>isCollision(rect,dinoRect))
 }
 
-function isCollision
+function isCollision(rect1,rect2){
+    
+}
