@@ -41,5 +41,7 @@ function checkLose() {
 }
 
 function isCollision(rect1,rect2){
-    
+    return (
+        
+    )
 }
