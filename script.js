@@ -37,4 +37,5 @@ function  update(time){
 }
 function checkLose() {
     const dinoRect = getDinoRect()
+    return 
 }
