@@ -35,4 +35,6 @@ function  update(time){
     lastTime = time
     window.requestAnimationFrame(update)
 }
-
+function checkLose() {
+    const 
+}
