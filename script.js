@@ -57,5 +57,6 @@ function  update(time){
     lastTime = null
     speedScale = 1
     score = 0
+    setupGround()
     
   }
