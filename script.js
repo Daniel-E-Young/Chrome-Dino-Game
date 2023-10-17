@@ -49,4 +49,6 @@ function  update(time){
       rect1.bottom > rect2.top
     )
   }
-  function updateScore()
+  function updateScore(delta) {
+    
+  }
