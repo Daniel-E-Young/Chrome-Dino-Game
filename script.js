@@ -50,5 +50,5 @@ function  update(time){
     )
   }
   function updateScore(delta) {
-    speedScale 
+    speedScale += delta 
   }
