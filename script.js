@@ -58,5 +58,6 @@ function  update(time){
     speedScale = 1
     score = 0
     setupGround()
+    setupDino()
     
   }
