@@ -63,3 +63,4 @@ function  update(time){
     startScreenElem.classList.add("hide")
     window.requestAnimationFrame(update)
   }
+  
