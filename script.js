@@ -49,4 +49,4 @@ function  update(time){
       rect1.bottom > rect2.top
     )
   }
-  
+  function up
