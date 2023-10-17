@@ -59,5 +59,6 @@ function  update(time){
     score = 0
     setupGround()
     setupDino()
+    setupCactus()
     
   }
