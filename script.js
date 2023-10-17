@@ -55,4 +55,6 @@ function  update(time){
   }
   function handleStart() {
     lastTime = null
+    speedScale = 1
+    
   }
