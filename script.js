@@ -61,4 +61,5 @@ function  update(time){
     setupDino()
     setupCactus()
     startScreenElem.classList.add("hide")
+    window.requestAnimationFrame(update)
   }
