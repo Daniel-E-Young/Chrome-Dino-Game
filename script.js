@@ -54,5 +54,5 @@ function  update(time){
     scoreElem.textContent = Math.floor(score)
   }
   function handleStart() {
-    
+    lastTime = null
   }
