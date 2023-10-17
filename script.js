@@ -60,5 +60,5 @@ function  update(time){
     setupGround()
     setupDino()
     setupCactus()
-    
+    startScreenElem.classList.add("hide")
   }
