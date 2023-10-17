@@ -53,4 +53,6 @@ function  update(time){
     speedScale += delta * 0.01
     scoreElem.textContent = Math.floor(score)
   }
-  function handleStart
+  function handleStart() {
+    
+  }
