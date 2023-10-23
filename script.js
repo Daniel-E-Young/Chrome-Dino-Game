@@ -64,5 +64,6 @@ function  update(time){
     window.requestAnimationFrame(update)
   }
   function handleLose() {
-    set
+    setDinoLose()
+    
   }
