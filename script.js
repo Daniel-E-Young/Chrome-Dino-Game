@@ -66,7 +66,8 @@ function  update(time){
   function handleLose() {
     setDinoLose()
     setTimeout(()=>{
-      document.addEventListener("keydown", handleStart,)
+      document.addEventListener("keydown", handleStart, {once: true})
+      startScreenElem
     }
 
     )
