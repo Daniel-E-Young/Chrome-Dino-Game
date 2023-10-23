@@ -68,7 +68,5 @@ function  update(time){
     setTimeout(()=>{
       document.addEventListener("keydown", handleStart, {once: true})
       startScreenElem.classList.remove("hide")
-    }
-
-    )
+    },100)
   }
