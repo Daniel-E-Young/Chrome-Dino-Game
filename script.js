@@ -73,5 +73,5 @@ function  update(time){
 
   function setPixelToWorldScale(){
     let worldToPixelScale
-    if (window.innerWidth / window.innerHeight <)
+    if (window.innerWidth / window.innerHeight < WORLD_WIDTH/)
   }
