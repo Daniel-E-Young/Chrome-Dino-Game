@@ -66,7 +66,7 @@ function  update(time){
   function handleLose() {
     setDinoLose()
     setTimeout(()=>{
-      document.addEventListener
+      document.addEventListener("keydown", handleStart,)
     }
 
     )
