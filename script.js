@@ -67,7 +67,7 @@ function  update(time){
     setDinoLose()
     setTimeout(()=>{
       document.addEventListener("keydown", handleStart, {once: true})
-      startScreenElem.classList.
+      startScreenElem.classList.remove("hide")
     }
 
     )
