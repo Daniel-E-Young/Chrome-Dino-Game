@@ -70,3 +70,5 @@ function  update(time){
       startScreenElem.classList.remove("hide")
     },100)
   }
+
+  function
