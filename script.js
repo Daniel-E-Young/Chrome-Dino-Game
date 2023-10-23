@@ -72,5 +72,6 @@ function  update(time){
   }
 
   function setPixelToWorldScale(){
+    let worldToPixelScale
     
   }
