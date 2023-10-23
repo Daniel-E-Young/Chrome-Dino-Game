@@ -65,5 +65,6 @@ function  update(time){
   }
   function handleLose() {
     setDinoLose()
-    setTimeout
+    setTimeout(()=>
+    )
   }
