@@ -79,4 +79,4 @@ function  update(time){
     worldToPixelScale = window.innerHeight / WORLD_HEIGHT
   }
 
-  worldElem
+  worldElem.computedStyleMap.width
