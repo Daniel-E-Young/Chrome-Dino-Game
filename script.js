@@ -79,4 +79,4 @@ function  update(time){
     worldToPixelScale = window.innerHeight / WORLD_HEIGHT
   }
 
-  worldElem.style.width = '${'
+  worldElem.style.width = '${WORLD_WIDTH * worldToPixelScale}px'
