@@ -78,3 +78,5 @@ function  update(time){
   } else {
     worldToPixelScale = window.innerHeight / WORLD_HEIGHT
   }
+
+  worldElem
