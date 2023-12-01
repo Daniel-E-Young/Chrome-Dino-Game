@@ -75,7 +75,7 @@ function handleLose() {
   setTimeout(() => {
     document.addEventListener("keydown", handleStart, { once: true })
     startScreenElem.classList.remove("hide")
-  }, 10000000)
+  }, 1000)
 }
 
 function setPixelToWorldScale() {
